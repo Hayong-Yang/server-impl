@@ -1,0 +1,83 @@
+# front 부분 gitignore
+# env
+front/.env
+front/.gitignore
+
+
+# Logs
+front/logs
+front/*.log
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+front/pnpm-debug.log*
+front/lerna-debug.log*
+
+front/node_modules
+front/dist
+front/dist-ssr
+front/*.local
+
+# Editor directories and files
+front/.vscode/*
+front/!.vscode/extensions.json
+front/.idea
+front/.DS_Store
+front/*.suo
+front/*.ntvs*
+front/*.njsproj
+front/*.sln
+front/*.sw?
+
+# etc
+
+front/package-lock.json
+front/package.json
+
+
+# server 부분 gitignore
+
+server/HELP.md
+server/.gradle
+server/build/
+server/!gradle/wrapper/gradle-wrapper.jar
+server/!**/src/main/**/build/
+server/!**/src/test/**/build/
+
+### STS ###
+server/.apt_generated
+server/.classpath
+server/.factorypath
+server/.project
+server/.settings
+server/.springBeans
+server/.sts4-cache
+server/bin/
+server/!**/src/main/**/bin/
+server/!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+server/.idea
+server/*.iws
+server/*.iml
+server/*.ipr
+server/out/
+server/!**/src/main/**/out/
+server/!**/src/test/**/out/
+
+### NetBeans ###
+server//nbproject/private/
+server//nbbuild/
+server//dist/
+server//nbdist/
+server//.nb-gradle/
+
+### VS Code ###
+server/.vscode/
+
+server/application.properties
+
+
+
+server/src/main/resources/application.properties
+server/.gitignore
